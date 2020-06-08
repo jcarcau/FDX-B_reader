@@ -6,7 +6,7 @@ all: $(EXEC)
 	chmod u+x serial_rfid.sh
 
 serial_rfid:
-	$(CC) $(LIBS) -o $@ serial_rfid
+	$(CC) $(LIBS) -o $@ serial_rfid.c
 
 .PHONY: clean
 
